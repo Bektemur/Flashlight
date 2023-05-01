@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Flashlight": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
