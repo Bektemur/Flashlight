@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  flashlight:
+    image: ${DOCKER_REGISTRY-}flashlight
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: flashlight
